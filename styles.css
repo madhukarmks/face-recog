@@ -1,0 +1,34 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+canvas {
+    border: 2px solid #572c2c;
+    background-color: #e2afaf;
+}
+
+.score {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
